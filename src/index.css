@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@font-face {
+    font-family: "Noto Sans";
+    font-weight: 100 900;
+    src: url("./assets/fonts/NotoSans-VariableFont_wdth,wght.ttf");
+}
